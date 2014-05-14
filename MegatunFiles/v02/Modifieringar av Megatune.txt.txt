@@ -1,0 +1,25 @@
+Vad behöverman göra för att få Megatun att fungera med ElFartreg??
+
+Editera filen Megatune2.25\mtCfg\megatune.ini och addera
+;********* Added for EVFartReg  ***************
+#elif EVFartReg
+   #include "EVFartReg.ini"
+;**********************************************
+
+Editera filen Megatun2.25\carmcCfg\settings.ini och addera
+;******** Added for EVFartReg *************
+   #unset EVFartReg "Electric Speed Controller I"
+;******************************************
+
+Editera Megatun2.25\carMtCfg\custom.ini och addera
+#elif EVFartReg
+(detta kan ev skippas om man defingerar variablerna som sätts under övrigt i custom.ini)
+
+
+kopiera in senaste EVFartReg.ini till Megatune2.25\mtCfg
+
+Skapa en ny profil i megatune. Välj EVFartReg som Code_variant.
+
+
+
+

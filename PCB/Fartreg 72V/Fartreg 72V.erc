@@ -1,0 +1,11 @@
+EAGLE Version 4.16r2 Copyright (c) 1988-2006 CadSoft
+
+Electrical Rule Check for P:/Dev/PCB/projects/Elbil/Fartreg 72V/Fartreg 72V.sch at 2008-01-09 19:44:27 
+
+WARNING: Sheet 1/1: SUPPLY Pin V- overwritten with GND
+WARNING: Sheet 1/1, Net GND: missing Junction at (3.1 0.5)
+
+Board and schematic are consistent
+
+    0 errors
+    2 warnings
